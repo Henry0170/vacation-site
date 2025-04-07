@@ -1,0 +1,21 @@
+body,html {
+    background-image:url(assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:black;
+}
+.navbar {
+    border-radius: 100px;
+}
+#title-index {
+    font-size: 50px;
+}
+#index-explanation {
+    margin-top: 160px;
+    background-color:rgba(255, 255, 255, 0.656);
+    border-radius: 25px;
+    padding:10px
+}
+#explore-title {
+    margin-top:100px;
+}
