@@ -4,9 +4,6 @@ body,html {
     background-size: cover;
     background-color:black;
 }
-.navbar {
-    border-radius: 100px;
-}
 #title-index {
     font-size: 50px;
 }
