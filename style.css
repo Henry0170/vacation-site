@@ -5,13 +5,15 @@ body,html {
     background-color:black;
 }
 #title-index {
-    font-size: 50px;
+    font-size: 60px;
+    font-weight: 9999;
 }
 #index-explanation {
-    margin-top: 160px;
+    margin-top: 135px;
     background-color:rgba(255, 255, 255, 0.656);
     border-radius: 25px;
-    padding:10px
+    padding:10px;
+    font-size:20px;
 }
 #explore-title {
     margin-top:100px;
