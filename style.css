@@ -9,7 +9,7 @@ body,html {
     font-weight: 9999;
 }
 #index-explanation {
-    margin-top: 135px;
+    margin-top: 120px;
     background-color:rgba(255, 255, 255, 0.656);
     border-radius: 25px;
     padding:10px;
@@ -20,4 +20,35 @@ body,html {
 }
 #weatherwidget {
     border-radius:20px;
+}
+#map {
+    margin-top:50px;
+    border-style: dashed;
+    /*
+    Unused atm
+    width:620px;
+    max-width:620px;
+    max-height:450px;
+    */
+    height:450px;
+    padding:10px;
+}
+#weather1 {
+    background-color:rgba(255,255,255,0.656);
+    border-radius:25px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+#map-link {
+    color:pink;
+    text-decoration: underline;
+}
+#map-link-div {
+    margin-top: 20px;
+}
+#map-link:active {
+    color:cyan;
+}
+#map-link:hover {
+    color:cyan;
 }
