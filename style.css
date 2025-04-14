@@ -1,4 +1,4 @@
-body,html {
+body {
     background-image:url(assets/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -51,4 +51,18 @@ body,html {
 }
 #map-link:hover {
     color:cyan;
+}
+#activities-grid {
+    background-color: rgba(128, 128, 128, 0.87);
+    color: white;
+    border-radius: 20px;
+    margin-top:200px;
+    max-width: 1500px;
+}
+#itinerary-text {
+    margin-top: 300px;
+    background-color: rgba(128, 128, 128, 0.87);
+    color: white;
+    border-radius: 20px;
+    max-width: 700px;
 }
