@@ -37,7 +37,7 @@ body {
     background-color:rgba(255,255,255,0.656);
     border-radius:25px;
     margin-top: 50px;
-    font-size: 20px;
+    font-size: 23px;
 }
 #map-link {
     color:pink;
@@ -52,17 +52,51 @@ body {
 #map-link:hover {
     color:cyan;
 }
-#activities-grid {
-    background-color: rgba(128, 128, 128, 0.87);
-    color: white;
+#food-grid {
+    background-color: rgba(255, 255, 255, 0.656);
     border-radius: 20px;
     margin-top:200px;
     max-width: 1500px;
+    font-size: 20px;
+}
+#activities-grid {
+    background-color: rgba(255, 255, 255, 0.656);
+    border-radius: 20px;
+    margin-top:200px;
+    max-width: 1500px;
+    font-size: 20px;
 }
 #itinerary-text {
-    margin-top: 300px;
-    background-color: rgba(128, 128, 128, 0.87);
-    color: white;
+    margin-top: 100px;
+    background-color: rgba(255, 255, 255, 0.656);
     border-radius: 20px;
     max-width: 700px;
+}
+#steak-club-leidse:hover {
+    background-image: url(assets/steak-club-leidse.jpg);
+    cursor:crosshair;
+}
+#amigo-grill:hover {
+    background-image: url(assets/amigo-grill.jpg);
+    cursor:crosshair;
+}
+#bello-gios:hover {
+    background-image: url(assets/bello-gios.jpg);
+    cursor:crosshair;
+}
+#humphreys:hover {
+    background-image: url(assets/humphreys.jpg);
+    cursor:crosshair;
+}
+#moon:hover {
+    background-image: url(assets/moon.jpg);
+    cursor:crosshair;
+}
+#hidden-thing {
+    visibility:hidden;
+    float:bottom;
+}
+#hidden-thing:hover {
+    visibility:visible;
+    background-color:rgba(255, 255, 255, 0.656);
 }
