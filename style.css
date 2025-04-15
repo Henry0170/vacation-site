@@ -13,7 +13,7 @@ body {
     background-color:rgba(255, 255, 255, 0.656);
     border-radius: 25px;
     padding:10px;
-    font-size:20px;
+    font-size:25px;
 }
 #explore-title {
     margin-top:100px;
@@ -24,12 +24,6 @@ body {
 #map {
     margin-top:50px;
     border-style: dashed;
-    /*
-    Unused atm
-    width:620px;
-    max-width:620px;
-    max-height:450px;
-    */
     height:450px;
     padding:10px;
 }
@@ -75,22 +69,27 @@ body {
 #steak-club-leidse:hover {
     background-image: url(assets/steak-club-leidse.jpg);
     cursor:crosshair;
+    color:white;
 }
 #amigo-grill:hover {
     background-image: url(assets/amigo-grill.jpg);
     cursor:crosshair;
+    color:white;
 }
 #bello-gios:hover {
     background-image: url(assets/bello-gios.jpg);
     cursor:crosshair;
+    color:white;
 }
 #humphreys:hover {
     background-image: url(assets/humphreys.jpg);
     cursor:crosshair;
+    color:white;
 }
 #moon:hover {
     background-image: url(assets/moon.jpg);
     cursor:crosshair;
+    color:white;
 }
 #hidden-thing {
     visibility:hidden;
